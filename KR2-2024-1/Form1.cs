@@ -16,5 +16,10 @@ namespace KR2_2024_1
         {
             InitializeComponent();
         }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Тату у нас сьогодні в школі скорочені батьківські збори.\n– Що значить скорочені?\n– Ти, я і директор.", "Анекдот", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
