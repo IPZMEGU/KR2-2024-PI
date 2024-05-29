@@ -227,8 +227,9 @@
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(113, 36);
             this.button20.TabIndex = 19;
-            this.button20.Text = "ПІ-21; №20";
+            this.button20.Text = "Шуляк Олександра";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // Form1
             // 
